@@ -1,0 +1,75 @@
+body {
+    font-family: Poppins;
+    font-size: calc(0.9rem + 0.75vw);
+    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    color:rgb(106, 82, 73);
+}
+h1 {
+    color:rgb(88, 42, 42);
+    text-shadow: 2px 3px rgba(157, 87, 54, 0.45);
+}
+p {
+    text-shadow: 1px 1.5px rgba(160, 82, 45, 0.45);
+}
+mark {
+    color:rgb(67, 53, 47);
+    text-shadow: 1.25px 2px rgba(138, 72, 41, 0.45);
+}
+.st {
+    text-decoration: 1.5px underline dotted rgba(160, 82, 45, 0.45);
+    width: fit-content;
+}
+.tb {
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1.5px dashed rgba(165, 155, 143, 0.6);
+    box-shadow: 4px 6px rgb(200, 200, 200, 0.8);
+    margin: 16px;
+}
+
+footer {
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 900;
+}
+
+a {
+    color: brown;
+    text-decoration: underline double rgba(165, 42, 42, 0.5) 1px;
+}
+a:hover {
+    color: indianred;
+    text-decoration: underline double rgba(205, 92, 92, 0.5) 1px;
+}
+a:active {
+    color:maroon
+}
+a:visited {
+    color:chocolate
+}
+
+.list-group-item {
+    color:rgb(106, 82, 73);
+    text-decoration: 1.5px underline dotted rgba(160, 82, 45, 0.45);
+    text-shadow: 1px 1.5px rgba(160, 82, 45, 0.45);
+    border-color: antiquewhite;
+    background-color: rgba(248, 248, 255, 0.25);
+}
+.list-group-item:hover {
+    color:rgb(106, 82, 73);
+    text-decoration: 1.5px underline dotted rgba(160, 82, 45, 0.45);
+    font-weight: 500;
+}
+.list-group-item:active {
+    color:rgb(97, 68, 57);
+}
+.list-group-item:visited {
+    color:rgb(88, 42, 42);
+}
+
+.btn {
+    background-color: whitesmoke;
+    border: 1px double rgba(160, 82, 45, 0.25);
+    color:rgb(106, 82, 73);
+    font-weight: 700;
+    text-shadow: 1px 1.5px rgba(160, 82, 45, 0.25);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="navbar"><b>Navigation</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="anagram-quiz.html">Anagram Quiz</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link disabled" aria-disabled="true">Order Form <span class="badge text-secondary" style="opacity: 25%;">Coming soon</span></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div style="background-color: rgba(255, 255, 255, 0.55); border-bottom: 5px double white;">
+        <div class="row">
+          <div class="mx-auto px-4" style="width: fit-content;">
+            <h1 class="display-1">Portfolio</h1>
+          </div>
+        </div>
+      </div>
+    <p class="px-2 p-2 lead">Hello! Welcome to my portfolio.</p>
+    <p class="px-2"> It contains some beginner level programming projects that demonstrate basic skills in Front-End languages [HTML/CSS and JS]. They are likely not fully functional yet.</p>
+
+    <div class="px-4">
+      <button class="btn btn-light border border-2" style="color:rgb(131, 96, 86); text-shadow: 1.5px 0.5px 0px rgba(215, 161, 161, 0.9);" onclick="contents_IsClicked();">Contents</button>
+    </div>
+    <div class="px-4">
+      <div id="contents">
+        <p>This is a box.</p>
+        <ul>
+          <li><b>HTML/CSS</b>: Intermediate proficiency</li>
+          <li><b>JavaScript</b>: Beginner/intermediate proficiency</li>
+        </ul>
+      </div>  
+    </div>
+    
+    <script src="script.js"></script>
+    <footer><a href="https://www.freepik.com/free-vector/modern-seamless-pattern-vector-illustration_2904375.htm">Background Image by rawpixel.com</a> on Freepik</footer>
+</body>
+</html>

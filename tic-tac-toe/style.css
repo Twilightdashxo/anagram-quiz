@@ -1,0 +1,14 @@
+table, th, tr, td {
+    border: 2px solid black;
+}
+td {
+    width: 100px;
+    height: 100px;
+}
+#grid {
+    width: 350px;
+    display: none;
+}
+td:hover {
+    background-color: grey;
+}

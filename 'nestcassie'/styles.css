@@ -1,0 +1,59 @@
+body {
+    font-family: Arvo;
+    font-size: calc(0.7rem + 1.1vw);
+    background-image: url('https://img.freepik.com/free-vector/modern-seamless-pattern-vector-illustration_53876-26119.jpg?w=740&t=st=1711185426~exp=1711186026~hmac=ce4a5e73707ff81ba35609a3c8727c4e0d8176dffd3871c2a83d959b6e35e156');
+    background-color: rgb(136, 187, 178);
+    background-blend-mode: overlay;
+}
+p, h1 {
+    color:rgb(131, 96, 86);
+}
+@keyframes movein {
+    0%  {transform: translateY(-5px); opacity: 75%;}
+    50% {transform: translateY(-2px);}
+    75% {transform: translateY(-0.5px);}
+    100% {transform: translateY(0px); opacity: 100%;}
+}
+footer {
+    color:sienna;
+}
+p, ul {
+    text-shadow: 1.5px 0.5px 0px rgba(215, 161, 161, 0.9);
+    animation: movein 0.5s linear 1;
+}
+h1 {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    text-shadow: 3px 2px 0px rgba(215, 161, 161, 0.9);
+}
+.px-2 {
+    padding-left: ($spacer * .75) !important;
+    padding-right: ($spacer * .75) !important;
+}
+a:link {
+    color: sienna;
+    text-decoration: none;
+}
+a:visited {
+    color: brown;
+    background-color: firebrick;
+}
+ul {
+    list-style: '✎  ' outside none;
+    color: sienna;
+}
+#navbar, .navbar-nav {
+    color: rgb(91, 22, 22);
+}
+footer {
+    font-size: 10px;
+    float: right;
+    margin: 50px;
+}
+#contents {
+    display: none;
+    background-color: rgba(240, 248, 255, 0.45);
+    border: 2px double white;
+    width: 45%;
+}
